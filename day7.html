@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7</title>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+    <script>
+        function Click() {
+            // we are selecting the div and storing in variable v
+            let v = document.getElementById("enter_text");
+            // transforming object - node object or element object
+            v.innerHTML = "Hello"
+           
+        }  // This function will be called when the button is clicked.  // The function will display an alert message.  // When the button is clicked, the function will be invoked.  // The alert message will appear when the page is refreshed.  // The function will be triggered when the button is clicked.  // When the button is clicked, the function will be invoked.  // The alert message will appear when the page is refreshed.  // The function will be triggered when the button is clicked.  // When the button is clicked, the function will be invoked.  // The alert message will appear when the page is refreshed.  // The function will be triggered when the button is clicked.  // When the button is clicked, the function will be invoked.  // The alert message will appear when the page is refreshed.  // The function will be triggered when the button is clicked.
+
+        function ChangeFont(){
+
+            let v = document.getElementById("enter_text");
+            //transform element
+            v.style.fontSize = "24px";
+            v.style.color = "blue";
+
+        }
+    </script>
+    <style>
+        #enter_text{
+            border: 2px solid black;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>    
+
+    <h1>I Frame</h1>
+    <iframe style="border: none;"  src="six.html" title="Sixth page instance" height="200" width="300"></iframe>
+
+    <hr>
+
+    <div>
+        <div>One</div>
+        <div>
+            <button onclick="Click()">Display something</button>
+        </div>
+        <div id="enter_text"></div>
+        <button onclick="ChangeFont()">Change color and font</button>
+    </div>
+
+    <button onclick="window.location = 'layout.html'">Layout</button>
+    <hr>
+    <button onclick="window.location = 'day15.html'">Day 15</button>
+    
+</body>
+</html>

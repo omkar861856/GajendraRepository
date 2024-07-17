@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17th July</title>
+</head>
+
+<body>
+
+    <form action="https://6666e9e8a2f8516ff7a57eb4.mockapi.io/User" method="post" autocomplete="off" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" value="84" disabled>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="state">State</label>
+        <select name="state" id="state">
+            <option value="maharashtra">Maharashtra</option>
+            <option value="kerala">Kerala</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="odisha" selected>Odisha</option>
+        </select>
+        <br>
+        <label for="qualification">Qualification</label>
+        <select name="qualification" id="qualification">
+            <option value="ssc">SSC</option>
+            <option value="hsc">HSC</option>
+            <option value="undergrad">Under-Grad</option>
+            <option value="postgrad" selected>Post-Grad</option>
+            <option value="phd">PhD</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <h3>Select Course</h3>
+        <label for="fullstack">Full Stack</label>
+        <input type="radio" id="fullstack">
+        <label for="fe">FE</label>
+        <input type="radio" id="fe">
+        <label for="be">BE</label>
+        <input type="radio" id="be">
+
+        <br>
+
+        <label for="phone">Enter a phone number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            >
+
+
+
+        <br>
+
+        <label for="comment">Comment</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+        <br>
+
+        <input type="checkbox" name="tnc" id="tnc">
+        <label for="tnc">Agree to terms and conditions</label>
+
+        <br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+
+    <script>
+
+
+    </script>
+
+
+</body>
+
+</html>
+
+<!-- {
+name: "name",
+age: 78,
+state: "odisha",
+qualification: "postgrad",
+course: "fullstack"
+
+} -->

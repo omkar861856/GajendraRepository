@@ -1,0 +1,19 @@
+/* table, th, td{
+    border: 2px solid black;
+} */
+
+th, td{
+    padding: 15px;
+    border-style: inset;
+    border-color: #96D4D4;
+
+
+}
+
+/* tr:nth-child(odd) {
+    background-color: #8dfdfd;
+  } */
+
+  td:nth-child(odd), th:nth-child(odd) {
+    background-color: #D6EEEE;
+  }
