@@ -1,0 +1,16 @@
+a{
+    display: block;
+}
+
+
+h1{
+    display: none;
+}
+
+h2{
+    border: 2px solid black;
+    max-width: 768px;
+    position: sticky;
+    top: 40px;
+}
+
