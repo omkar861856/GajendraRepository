@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#tooltip{
+    display: none;
+}
+
+#heading:hover #tooltip{
+    display: block;
+    background-color: tomato;
+}
+
+h1:first-child{
+    color: blue;
+}
+
+p i:last-child{
+    background-color: rgb(190, 190, 244);
+}
+
+q:lang(spanish){
+    quotes: ">" "<"
+}
+
+q:lang(kannada){
+    quotes: ".." ".."
+}
+
+p::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+}
+
+h1::before{
+    content: "Heading: ";
+    color: green;
+}
+
+h1::after{
+    content: "The end...";
+    color: orange;
+}
+
+::marker{
+    color: blueviolet;
+    font-size: 23px;
+}
+
+::selection{
+    color: rgb(2, 1, 1);
+    background-color: rgb(237, 158, 237);
+}
+
+#demoimg{
+    opacity: 0.5;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: -1;
+}
+
+div.background {
+    background: url('https://st5.depositphotos.com/35914836/64906/i/450/depositphotos_649066108-stock-photo-pink-flowers-park-spring-bloosom.jpg') repeat;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+
+ 
+
+  li a{
+
+    display: block;
+    width: 60%;  
+    background-color: antiquewhite;
+  }
+
+ 
