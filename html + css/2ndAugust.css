@@ -1,0 +1,72 @@
+:root{
+  font-size: 16px;
+}
+
+ul{
+  gap: 10px;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block !important; 
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+li:hover:not(.active){
+  background-color: beige;
+}
+
+
+
+li.active{
+  background-color: green;
+}
+
+
+li.active{
+  float: right;
+  background-color: red !important;
+}
+
+#navigation{
+  width: 100vw;
+  padding: 10px;
+  position: sticky;
+  top: 10px;
+  font-size: 20px;
+}
+
+
+
+a[target] {
+  background-color: yellow;
+}
+
+.class{
+
+}
+
+#id{
+
+}
+
+form{
+
+}
+
+form[action="http://example.com"]{
+  background-color: blue;
+}
+
+div[demo="demo3"]{
+
+background-color: aqua;
+width: 100px;
+height: 100px;
+
+}
