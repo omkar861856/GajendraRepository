@@ -35,6 +35,9 @@ console.log(a +" "+ b) //concatenation with type coersion
 // type coercion
 
 
+// array methods
+
+
 
 
 
