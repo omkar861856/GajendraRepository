@@ -1,6 +1,6 @@
 
 
-let a = "   Hello world! from paris olympics - world   "
+let a = "  Hello world! from paris olympics - world   "
 
 // string manipulation methods
 
@@ -29,8 +29,10 @@ console.log(a.concat(" - Paris Olympics"))
 
 console.log(a.trim())
 console.log(a.repeat(3))
-console.log(a.padStart(50, " "))
+console.log(a.padStart(50, "-"))
 console.log(a.padEnd(50, "-"))
+
+// cannot use js reserved words - let for if 
 
 // string template literals
 
@@ -44,13 +46,26 @@ let regex = /\bworld\b/g
 console.log(a.match(regex))
 console.log(a.split(regex))
 
+// a.includes and a.match
+
 let no = "+91888888888"
 
 let usaNo = /^\(?\d{3}\)?[-\s]?\d{3}[-\s]?\d{4}$/
 
-if(no.match(usaNo)){
+let africaNo = /^0[678]\d{8}$/
+
+let indNo = /^(?:(?:\+|0{0,2})91(\s*[-\s]\s*)?|[0]?)?[789]\d{9}$/
+
+if(no.match(indNo)){
     console.log("Valid US phone number")
-}else{
+}
+else if(no.match(indNo)){
+    console.log('Valid africa number')
+}
+else if(no.match(indNo)){
+    console.log('Valid india number')
+}
+else{
     console.log("Invalid US phone number")
 }
 
@@ -81,8 +96,8 @@ function sum(a, b) {
 
 console.log(sum(2, 3));
 
-function average(a, b, sum){
-    let avg =  sum(a,b) / 2;
+function average(a, b, fn){
+    let avg =  fn(a,b) / 2;
     return avg;
 }
 

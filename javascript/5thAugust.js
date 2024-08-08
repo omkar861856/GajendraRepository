@@ -4,6 +4,8 @@
 
 // string ,numbers, booleans, null and undefined
 
+// let and const
+
 let a = "Hello World"
 let b = 2;
 let c = true;
