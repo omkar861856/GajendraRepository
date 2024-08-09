@@ -2,4 +2,9 @@
 
 # 07th August - basic JS - string methods, introduction to functions
 
-# next - objects, arrays - their methods and how to manipulate.
+# 08th August - revision
+
+# 09th August -  arrays - MRF methods and how to manipulate.
+
+# 11th August - objects
+
