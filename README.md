@@ -6,5 +6,9 @@
 
 # 09th August -  arrays - MRF methods and how to manipulate.
 
-# 11th August - objects
+# 12th August - Recap, Object methods and how to manipulate, sync nature of js and async nature
+
+1) Objects tasks given - submit deadline is 13th August. 
+
+# 12th August - 
 
