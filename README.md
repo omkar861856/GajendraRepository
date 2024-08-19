@@ -10,5 +10,7 @@
 
 1) Objects tasks given - submit deadline is 13th August. 
 
-# 13th August - 
+# 13th August - basic JS
+
+# 19th August - DOM started
 
