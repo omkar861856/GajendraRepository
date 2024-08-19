@@ -36,11 +36,13 @@ do {
 
 // for in loop
 
-let myObj = {
+const myObj = {
   name: "John",
   age: 30,
   city: "New York",
 };
+
+myObj.name = "Jane";
 
 console.log(myObj.name)
 
