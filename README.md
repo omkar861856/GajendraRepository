@@ -14,3 +14,5 @@
 
 # 19th August - DOM started
 
+# 20th August - DOM - 50%
+
