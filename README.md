@@ -16,3 +16,7 @@
 
 # 20th August - DOM - 50%
 
+# 21st August - Dom 90% - h.w recepie page, news blog, stackblitz portfolio page.
+
+# 22nd August - collab
+
