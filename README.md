@@ -18,5 +18,6 @@
 
 # 21st August - Dom 90% - h.w recepie page, news blog, stackblitz portfolio page.
 
-# 22nd August - collab
+# 22nd August - 22nd to 25th August - 3 basic projects; 26th to 28th August - Review and extra class; 28th August - 1st August - JS completion; 2nd - 8th September - final collab project - Handover.
+
 
