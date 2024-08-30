@@ -20,4 +20,11 @@
 
 # 22nd August - 22nd to 25th August - 3 basic projects; 26th to 28th August - Review and extra class; 28th August - 1st August - JS completion; 2nd - 8th September - final collab project - Handover.
 
+# 30th August - Async JS - just started -
+## blocking and synchronous nature of js
+## How the event loop works - 
+## Web API basics.
+
+# 31st August - callbacks, callback hell, Promises and async & await.
+
 
